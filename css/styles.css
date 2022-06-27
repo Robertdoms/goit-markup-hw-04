@@ -223,6 +223,9 @@ span {
 .filter-item{
   margin-right: 8px;
 }
+.filter-item:last-child{
+  margin-right: 0;
+}
 .filter-btn {
   display: flex;
   justify-content: center;
