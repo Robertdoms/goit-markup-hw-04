@@ -97,7 +97,7 @@ span {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em; 
+  letter-spacing: 0.02em;
   color: #757575;
 }
 .menu-link.list .item::before {
@@ -110,9 +110,9 @@ span {
   background-position: center;
   background-repeat: no-repeat;
 }
-  .menu-link.list .item:nth-child(1)::before {
-    background-image: url("../images/icon/envelope.svg");
-  }
+.menu-link.list .item:nth-child(1)::before {
+  background-image: url("../images/icon/envelope.svg");
+}
 .menu-link.list .item:nth-child(2)::before {
   background-image: url("../images/icon/tel.svg");
 }
@@ -296,7 +296,6 @@ span {
   font-size: 16px;
   line-height: 1.87;
   margin: 0;
-
 }
 .button {
   color: var(--hero-color);
@@ -449,15 +448,14 @@ li {
 .footer-item:last-child {
   margin-bottom: 0;
 }
-.social-list{
+.social-list {
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  
 }
-.social-item-list{
+.social-item-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -467,19 +465,55 @@ li {
   height: 44px;
   background-color: #ffffff;
   border-radius: 50%;
-  
-  
 }
-.social-item-list 
-.social-item-list:not(:last-child){
-  margin-right: 10px ;
+.social-item-list .social-item-list:not(:last-child) {
+  margin-right: 10px;
 }
 .social-item-link:hover,
-.social-item-link:focus{
+.social-item-link:focus {
   background-color: #2196f3;
-  border-radius: 50% ;
+  border-radius: 50%;
 }
 .footer-social {
   display: flex;
-  
+}
+.customers::before {
+  display: block;
+  border: 1px solid #afb1b8;
+  content: "";
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  margin-right: 30px;
+}
+.customers:nth-child(1)::before {
+  background-image: url(../images/yaco.svg);
+}
+.customers:nth-child(2)::before {
+  background-image: url(../images/tagline.svg);
+}
+.customers:nth-child(3)::before {
+  background-image: url(../images/Company.svg);
+}
+.customers:nth-child(4)::before {
+  background-image: url(../images/foster.svg);
+}
+.customers:nth-child(5)::before {
+  background-image: url(../images/brand.svg);
+}
+.customers:nth-child(6)::before {
+  background-image: url(../images/tagline.svg);
+}
+.customers:focus,
+.customers:hover {
+  fill: #2196f3;
+}
+.customers-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
 }
