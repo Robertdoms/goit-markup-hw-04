@@ -377,6 +377,7 @@ span {
   letter-spacing: 0.03em;
 }
 address {
+  display: flex;
   font-style: normal;
   margin-top: 20px;
 }
