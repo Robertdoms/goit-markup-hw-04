@@ -377,7 +377,7 @@ span {
   letter-spacing: 0.03em;
 }
 address {
-  display: flex;  
+  display: flex;
   align-items: baseline;
   font-style: normal;
   margin-top: 20px;
@@ -482,6 +482,7 @@ li {
   background-color: #2196f3;
   border-radius: 50%;
 }
+
 .customers::before {
   display: block;
   border: 1px solid #afb1b8;
@@ -494,8 +495,14 @@ li {
   height: 92px;
   border-radius: 4px;
   margin-right: 30px;
+  cursor: pointer;
 }
-
+.customers::before:focus,
+.customers::before:hover{
+  border: 1px solid #2196f3;
+  fill: #2196f3;
+  
+}
 .customers:nth-child(1)::before {
   background-image: url(../images/yaco.svg);
 }
@@ -524,7 +531,12 @@ li {
   display: inline-block;
   margin-right: 10px;
 }
-.footer-social-link{
+.footer-social-item:focus,
+.footer-social-item:hover {
+  background-color: #2196f3;
+  border-radius: 50%;
+}
+.footer-social-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -543,11 +555,10 @@ li {
   color: #ffffff;
   display: flex;
   margin-bottom: 20px;
-  
 }
-.footer-social-list{
+.footer-social-list {
   padding: 0;
 }
-.footer-social{
-margin-left: 70px;
+.footer-social {
+  margin-left: 70px;
 }
