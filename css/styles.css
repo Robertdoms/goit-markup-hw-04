@@ -102,12 +102,12 @@ span {
   content: "";
 }
 .link {
+  display: inline-block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
-  display: flex;  
+  color: #757575; 
   align-items: center;
 }
 .menu-link.list .item {
@@ -524,8 +524,8 @@ li {
 }
 .footer-social-link:focus,
 .footer-social-link:hover {
-  color: #ffffff;
   background-color: var(--social-icon-hover);
+  color: #ffffff;
 }
 .footer-social-title {
   font-weight: 700;
