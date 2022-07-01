@@ -60,11 +60,11 @@ span {
 .menu-nav.list .menu:focus,
 :hover {
   color: var(--accent-color);
-  text-decoration: none;
 }
 .menu-link .link:hover,
 :focus {
   color: var(--accent-color);
+  text-decoration: none;
 }
 .menu-link {
   margin-left: auto;
@@ -107,6 +107,8 @@ span {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: flex;  
+  align-items: center;
 }
 .menu-link.list .item {
   display: inline-block;
@@ -386,7 +388,7 @@ footer {
   padding-bottom: 60px;
   background: #2f303a;
 }
-.dscr{
+.dscr {
   display: flex;
   align-items: baseline;
 }
@@ -469,7 +471,7 @@ li {
   justify-content: center;
   color: var(--social-icon);
   width: 44px;
-  height: 44px; 
+  height: 44px;
   border-radius: 50%;
 }
 .social-list {
@@ -486,37 +488,29 @@ li {
   margin-right: 10px;
 }
 
-.customers-list {
-  display: block;
-  border: 1px solid #afb1b8;
-  content: "";
-  align-items: center;
+.customers {
+  display: inline-block;
+  content: '';
   justify-content: center;
-  background-repeat: no-repeat;
-  background-position: center;
+  border: 1px solid #afb1b8;
   width: 170px;
   height: 92px;
   border-radius: 4px;
   cursor: pointer;
-}
-.customers{
   margin-right: 30px;
 }
-.customers:last-child{
+.customers:last-child {
   margin-right: 0;
 }
 .customers-list {
   display: flex;
-  align-items: center;
-  padding: 0;
+}
+.customers-item-link {
+  background-position: center;
+  background-size: contain;
 }
 .footer-social {
   margin-left: 70px;
-}
-.footer-social-link:focus,
-.footer-social-link:hover {
-  color: #ffffff;
-  background-color: var(--social-icon-hover); 
 }
 .footer-social-link {
   display: flex;
@@ -527,6 +521,11 @@ li {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+}
+.footer-social-link:focus,
+.footer-social-link:hover {
+  color: #ffffff;
+  background-color: var(--social-icon-hover);
 }
 .footer-social-title {
   font-weight: 700;
@@ -541,9 +540,12 @@ li {
   padding: 0;
   display: flex;
 }
-.footer-social-item{
+.footer-social-item {
   margin-right: 10px;
 }
-.footer-social-item:last-child{
+.footer-social-item:last-child {
   margin-right: 0;
+}
+.icon{
+  margin-right: 10px;
 }
