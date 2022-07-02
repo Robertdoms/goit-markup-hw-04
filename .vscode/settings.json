@@ -17,5 +17,8 @@
   "trailingComma": "all",
   "useTabs": true,
   "vueIndentScriptAndStyle": false,
-  "singleAttributePerLine": false
+  "singleAttributePerLine": false,
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  }
 }
