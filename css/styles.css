@@ -78,6 +78,9 @@ span {
 .menu-link .item:last-child {
   margin-right: 0px;
 }
+.link .icon{
+  margin-right: 10px;
+}
 .menu-nav {
   font-weight: 500;
   font-size: 14px;
@@ -557,7 +560,4 @@ li {
 }
 .footer-social-item:last-child {
   margin-right: 0;
-}
-.icon {
-  margin-right: 10px;
 }
