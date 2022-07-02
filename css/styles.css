@@ -503,6 +503,7 @@ li {
 }
 .customers-list {
   display: flex;
+ 
 }
 .customers-item-link {
   display: flex;
