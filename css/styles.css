@@ -492,13 +492,13 @@ li {
   cursor: pointer;
   margin-right: 30px;
 }
-.customers:focus,
-.customers:hover {
-  border: 1px solid var(--social-icon-hover);
-  border-radius: 4px;
-}
 .customers:last-child {
   margin-right: 0;
+}
+.customers-item-link:focus,
+.customers-item-link:hover {
+  border: 1px solid var(--social-icon-hover);
+  border-radius: 4px;
 }
 .customers-list {
   display: flex;
