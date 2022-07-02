@@ -529,18 +529,16 @@ li {
   justify-content: center;
   width: 44px;
   height: 44px;
-  color: var(--social);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  fill: var(--social);
 }
 .footer-social-link:focus,
 .footer-social-link:hover {
   background-color: var(--social-icon-hover);
-  fill: var(--social);
+  color: var(--social);
 }
-.footer-dscr{
-  fill: currentColor;
-}
+
 .footer-social-title {
   font-weight: 700;
   font-size: 14px;
