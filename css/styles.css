@@ -503,20 +503,20 @@ li {
 }
 .customers-list {
   display: flex;
- 
 }
 .customers-item-link {
   display: flex;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--social-icon);
   width: 170px;
   height: 92px;
   border-radius: 4px;
+  fill: var(--social-icon);
 }
-.customers-icon:focus,
-.customers-icon:hover {
+.customers-item-link:focus,
+.customers-item-link:hover {
   fill: currentColor;
 }
 
@@ -529,14 +529,14 @@ li {
   justify-content: center;
   width: 44px;
   height: 44px;
-  fill: var(--social);
+  color: var(--social);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 .footer-social-link:focus,
 .footer-social-link:hover {
   background-color: var(--social-icon-hover);
-  fill: var(--social);
+  color: var(--social);
 }
 .footer-social-title {
   font-weight: 700;
