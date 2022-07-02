@@ -461,19 +461,19 @@ li {
 .footer-item-list:last-child {
   margin-bottom: 0;
 }
-.social-item-link:hover,
-.social-item-link:focus {
-  fill: currentColor;
-  background-color: var(--social-icon-hover);
-}
 .social-item-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--social-icon);
+  fill: var(--social-icon);
   width: 44px;
   height: 44px;
   border-radius: 50%;
+}
+.social-item-link:hover,
+.social-item-link:focus {
+  fill: #ffffff;
+  background-color: var(--social-icon-hover);
 }
 .social-list {
   display: flex;
