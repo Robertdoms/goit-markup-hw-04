@@ -114,9 +114,12 @@ span {
 .menu-link.list .item {
   display: inline-block;
   background-size: contain;
-  margin-right: 10px;
+  margin-right: 30px;
   background-position: center;
   background-repeat: no-repeat;
+}
+.menu-link.list .item:last-child{
+  margin-right: 0;
 }
 .container {
   width: 1200px;
@@ -500,6 +503,7 @@ li {
 .customers-item-link:hover {
   border: 1px solid var(--social-icon-hover);
   border-radius: 4px;
+  fill: currentColor;
 }
 .customers-list {
   display: flex;
@@ -514,10 +518,6 @@ li {
   height: 92px;
   border-radius: 4px;
   fill: var(--social-icon);
-}
-.customers-item-link:focus,
-.customers-item-link:hover {
-  fill: currentColor;
 }
 
 .footer-social {
@@ -536,7 +536,10 @@ li {
 .footer-social-link:focus,
 .footer-social-link:hover {
   background-color: var(--social-icon-hover);
-  color: var(--social);
+  fill: var(--social);
+}
+.footer-dscr{
+  fill: currentColor;
 }
 .footer-social-title {
   font-weight: 700;
