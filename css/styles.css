@@ -104,12 +104,12 @@ span {
   content: "";
 }
 .link {
-  display: flex;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-  align-items: center;
+    display: flex;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    align-items: center;
 }
 .menu-link.list .item {
   display: inline-block;
@@ -250,7 +250,7 @@ span {
   text-align: center;
 }
 .team {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 .team .title {
   color: var(--title-text-color);
